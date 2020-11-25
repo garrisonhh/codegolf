@@ -1,2 +1,4 @@
-j,r=''.join,range
-[print(j(j((" %s"%b)[b>0]for b in[max(n+1-abs(y-n)-abs(x-9),0)for x in r(19)])+'\n'for y in r(n*2+1)))for n in r(9)]
+r,p=range,print
+for i in r(9):
+ for y in r(-i,i+1):d=i-abs(y);p(" "*(9-d),*r(1,d+2),*r(d,0,-1),sep='')
+ p()
