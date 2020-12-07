@@ -1,0 +1,6 @@
+# https://codegolf.stackexchange.com/questions/215449/compatible-strings
+f=lambda v:len({sum(map(int,str(sum((ord(c)+2)%9+1for c in w))))for w in v})
+
+print(f(("HMCZQZZRC","SIQYOBXK")))
+
+# doesn't work WHY?????????????????????????
